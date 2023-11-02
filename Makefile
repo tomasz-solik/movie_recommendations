@@ -1,5 +1,5 @@
 sh:
-	docker exec -it tomek-recruitment-app /bin/bash
+	docker exec -it movie-recommendations-app /bin/bash
 
 u:
 	docker compose up -d
@@ -15,9 +15,9 @@ build:
 	docker compose build
 
 composer-install:
-	docker exec -it tomek-recruitment-app sh -c "composer install"
+	docker exec -it movie-recommendations-app sh -c "composer install"
 composer-update:
-	docker exec -it tomek-recruitment-app sh -c "composer update"
+	docker exec -it movie-recommendations-app sh -c "composer update"
 
 install:
 	@make build
@@ -27,7 +27,7 @@ install:
 	@echo "The installation was successful. Now you have access to the container via the CLI with the 'make sh' command"
 
 app-test:
-	docker exec -it tomek-recruitment-app sh -c "php vendor/phpunit/phpunit/phpunit"
+	docker exec -it movie-recommendations-app sh -c "php vendor/phpunit/phpunit/phpunit"
 
 app-run:
-	docker exec -it tomek-recruitment-app sh -c "php cli/movie_recommendations.php"
+	docker exec -it movie-recommendations-app sh -c "php cli/movie_recommendations.php"
