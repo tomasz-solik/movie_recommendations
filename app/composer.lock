@@ -4,7 +4,7 @@
     "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
     "This file is @generated automatically"
   ],
-  "content-hash": "040273c3e6e1271874cee4fb920e9240",
+  "content-hash": "f9a08f10c6e259965803f4112c925408",
   "packages": [],
   "packages-dev": [
     {
@@ -74,12 +74,12 @@
       "source": {
         "type": "git",
         "url": "https://github.com/nikic/PHP-Parser.git",
-        "reference": "54103d838734be0499172026525e38cbf6af2711"
+        "reference": "402b6cf3452c21c58aa11d9549cee6205d14e347"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/54103d838734be0499172026525e38cbf6af2711",
-        "reference": "54103d838734be0499172026525e38cbf6af2711",
+        "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/402b6cf3452c21c58aa11d9549cee6205d14e347",
+        "reference": "402b6cf3452c21c58aa11d9549cee6205d14e347",
         "shasum": ""
       },
       "require": {
@@ -122,7 +122,7 @@
         "issues": "https://github.com/nikic/PHP-Parser/issues",
         "source": "https://github.com/nikic/PHP-Parser/tree/4.x"
       },
-      "time": "2023-10-03T21:00:18+00:00"
+      "time": "2023-11-01T20:31:02+00:00"
     },
     {
       "name": "phar-io/manifest",
@@ -1665,9 +1665,7 @@
   "stability-flags": [],
   "prefer-stable": false,
   "prefer-lowest": false,
-  "platform": {
-    "ext-curl": "*"
-  },
+  "platform": [],
   "platform-dev": [],
   "plugin-api-version": "2.6.0"
 }
